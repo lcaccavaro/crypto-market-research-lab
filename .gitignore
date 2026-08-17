@@ -1,0 +1,50 @@
+# ============================================================
+# .gitignore — Market Research Lab
+# ============================================================
+
+# --- Ambiente virtual ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb  # descomente se quiser versionar notebooks limpos
+# Mantenha comentado se quiser versionar notebooks
+
+# --- Dados brutos (podem ser grandes) ---
+01_data/raw/
+
+# --- Dados processados ---
+01_data/processed/
+
+# --- Variáveis de ambiente / segredos ---
+.env
+.env.*
+secrets.yaml
+
+# --- IDE / Sistema ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Resultados / outputs grandes ---
+08_results/*.csv
+08_results/*.parquet
+08_results/*.h5
+
+# --- Logs ---
+*.log
+logs/

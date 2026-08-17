@@ -1,0 +1,33 @@
+# ============================================================
+# requirements/base.txt
+# Dependências base do Market Research Lab
+# ============================================================
+
+# --- Dados e computação numérica ---
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+
+# --- Visualização ---
+matplotlib>=3.9
+seaborn>=0.13
+plotly>=5.22
+
+# --- Notebooks ---
+jupyter>=1.1
+jupyterlab>=4.2
+notebook>=7.2
+ipywidgets>=8.1
+
+# --- HTTP / APIs ---
+requests>=2.32
+httpx>=0.27
+
+# --- Configuração e utilidades ---
+python-dotenv>=1.0
+pyyaml>=6.0
+tqdm>=4.66
+
+# --- Estatística e quant ---
+statsmodels>=0.14
+scikit-learn>=1.5
